@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import InputField from "./InputField";
+import InputField from "../Components/InputField";
 
-const UseState = () => {
-
+const UseStateH = () => {
     const [name, setname] = useState("");
     const [checkbox, setCheckbox] = useState(true);
     const [first, setFirst] = useState("");
@@ -21,7 +20,7 @@ const UseState = () => {
 
                     <InputField type={"text"} placeholder={"name"} value={name} onChange={(e) => setname(e.target.value)} />
 
-                    <p>The Name is :- {name}</p>
+                    <p>The Name is :- <b>{name}</b> </p>
                     <button onClick={() => setname("")}>Reset</button>
                 </div>
 
@@ -41,7 +40,7 @@ const UseState = () => {
 
                     <button onClick={() => { handleCount(); handleCount(); handleCount(); }}>+3</button>
                     <button onClick={() => { handleCount(); }}>+1</button>
-                    <p>hi {first}, your count is {count}.</p>
+                    <p>hi <b>{first}</b>, your count is <b>{count}</b>.</p>
                 </div>
 
             </div >
@@ -49,4 +48,4 @@ const UseState = () => {
     )
 };
 
-export default UseState;
+export default UseStateH;
