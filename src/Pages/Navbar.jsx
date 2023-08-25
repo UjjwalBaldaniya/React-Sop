@@ -16,7 +16,8 @@ const Navbar = () => {
                     <Link to={'/useLayoutEffect'} className="ul">useLayoutEffect</Link>
                     <Link to={'/reactMemo'} className="ul">React.Memo</Link>
                     <Link to={'/useContext'} className="ul">useContext</Link>
-                    <Link to={'/pureComponent'} className="ul">Pure Component</Link>
+                    <Link to={'/hoc'} className="ul">HOC</Link>
+                    <Link to={'/suspence'} className="ul">Suspense</Link>
                 </ul>
                 <hr />
                 <hr className="hr" />

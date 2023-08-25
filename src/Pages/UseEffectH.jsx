@@ -33,15 +33,12 @@ const UseEffectH = () => {
 
                 {apiData.map((element, index) => {
                     return (
-                        <>
-                            <div key={index}>
-                                <p>{element.title}</p>
-                                <p>{element.price}</p>
-                            </div>
-                        </>
+                        <div key={index}>
+                            <p>{element.title}</p>
+                            <p>{element.price}</p>
+                        </div>
                     )
                 })}
-
             </div>
         </>
     )

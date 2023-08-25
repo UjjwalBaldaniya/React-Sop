@@ -11,7 +11,8 @@ import UseMemo from "./Pages/UseMemo";
 import UseCallback from "./Pages/UseCallback";
 import UseLayoutEffect from "./Pages/UseLayoutEffect";
 import ReactMemo from "./Pages/ReactMemo";
-import PureComponent from "./Pages/PureComponent";
+import Hoc from "./Pages/Hoc";
+import Suspence from "./Pages/Suspence";
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
           <Route path="/useCallback" element={<UseCallback />} />
           <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
           <Route path="/reactMemo" element={<ReactMemo />} />
-          <Route path="/pureComponent" element={<PureComponent />} />
+          <Route path="/hoc" element={<Hoc />} />
+          <Route path="/suspence" element={<Suspence />} />
         </Routes>
       </BrowserRouter>
     </>
