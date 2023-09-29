@@ -18,6 +18,9 @@ const Navbar = () => {
                     <Link to={'/useContext'} className="ul">useContext</Link>
                     <Link to={'/hoc'} className="ul">HOC</Link>
                     <Link to={'/suspence'} className="ul">Suspense</Link>
+                    <Link to={'/useReducer'} className="ul">useReducer</Link>
+                    <Link to={'/helmet'} className="ul">Helmet</Link>
+                    <Link to={'/reactProptypes'} className="ul">PropTypes</Link>
                 </ul>
                 <hr />
                 <hr className="hr" />

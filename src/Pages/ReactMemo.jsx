@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactMemocom from "../Components/ReactMemocom";
 
 const ReactMemo = () => {
+    console.log("Parent component render");
 
     const [count, setCount] = useState(0);
     const [todos, setTodos] = useState([]);

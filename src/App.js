@@ -13,6 +13,9 @@ import UseLayoutEffect from "./Pages/UseLayoutEffect";
 import ReactMemo from "./Pages/ReactMemo";
 import Hoc from "./Pages/Hoc";
 import Suspence from "./Pages/Suspence";
+import Reducerr from "./Pages/Reducerr";
+import ReactHelmet from "./Pages/ReactHelmet";
+import ReactPropTypes from "./Pages/ReactPropTypes";
 
 const App = () => {
   return (
@@ -32,6 +35,9 @@ const App = () => {
           <Route path="/reactMemo" element={<ReactMemo />} />
           <Route path="/hoc" element={<Hoc />} />
           <Route path="/suspence" element={<Suspence />} />
+          <Route path="/useReducer" element={<Reducerr />} />
+          <Route path="/helmet" element={<ReactHelmet />} />
+          <Route path="/reactProptypes" element={<ReactPropTypes />} />
         </Routes>
       </BrowserRouter>
     </>

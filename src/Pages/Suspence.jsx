@@ -1,11 +1,10 @@
-import React, { Suspense } from "react";
-import Loading from "../Components/Loading";
-const Products = React.lazy(() => import("../api/Products"));
+import React, { Suspense, lazy } from "react";
+const Products = lazy(() => import("../api/Products"));
 
 const Suspence = () => {
   return (
     <>
-      <Suspense fallback={<Loading />}>
+      <Suspense fallback={<h1>🌀 Loading...</h1>}>
         <Products />
       </Suspense>
     </>
